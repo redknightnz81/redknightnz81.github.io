@@ -1,2 +1,3 @@
 name: Bradley Campbell, Web Developer
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
