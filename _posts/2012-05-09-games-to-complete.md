@@ -1,21 +1,20 @@
 ---
 layout: post
-title: "Games I Need To Complete"
+title: "Games I need to complete"
 date: 2012-05-09
 ---
 
 In alphabetical order, but not particularly in the order of playing:
 
 Games with * have achievements that are unobtainable due to server closures, glitches etc.
-<table cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td><strong>Racing &gt; Simulation sub-genre</strong>
+
+<strong>Racing &gt; Simulation sub-genre</strong>
 MotoGP '08 *
 MX vs. ATV: Supercross
 Need for Speed: Rivals
-Test Drive Unlimited 2</td>
-<td><strong>Racing &gt; Arcade sub-genre</strong>
+Test Drive Unlimited 2
+
+<strong>Racing &gt; Arcade sub-genre</strong>
 Ben 10 Galactic Racing
 Blood Drive
 Blur
@@ -30,8 +29,8 @@ FlatOut Ultimate Carnage
 Full Auto
 Hot Wheels: Beat That!
 Hydro Thunder Go (WP)
-<span style="font-family: inherit; font-size: inherit; line-height: 1.5;">Jimmie Johnson's Anything with an Engine
-</span>Mad Riders (XBLA)
+Jimmie Johnson's Anything with an Engine
+Mad Riders (XBLA)
 Madagascar Kartz
 Monster Jam
 nail'd
@@ -42,10 +41,8 @@ OutRun Online Arcade (XBLA)
 Pimp My Ride
 Pure
 Sonic &amp; SEGA All-Stars Racing
-Split/Second</td>
-</tr>
-</tbody>
-</table>
+Split/Second
+
 Listed above are some of the games that I currently own, which are less than 1000G / 200G complete.
 
 <strong>Updated: 19th April 2015</strong>
