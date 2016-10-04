@@ -2,6 +2,7 @@
 layout: post
 title: "Completed Game: Truck Racer (PC)"
 date: 2016-09-20
+tags: completed game, gaming, steam
 ---
 
 Already completed the X360 version.

@@ -2,6 +2,7 @@
 layout: post
 title: "Completed Game: MotoGP 14 Compact"
 date: 2016-09-19
+tags: completed game, gaming, steam
 ---
 
 Basic, trimmed down version of the full game.
