@@ -2,7 +2,11 @@
 layout: post
 title: "Completed Game: Grid 2 (PC)"
 date: 2016-09-19
-tags: completed game, milestone, gaming, steam
+tags: 
+  - completed game
+  - milestone
+  - gaming
+  - steam
 ---
 
 Already completed the X360 version of this game.
