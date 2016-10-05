@@ -1,0 +1,22 @@
+---
+layout: designmockups
+title: "TrueAchievements redesign mockup."
+date: 2016-10-05
+thumbmail_image: mockup_003.jpg
+additional_images:
+  - mockup_001.jpg
+  - mockup_002.jpg
+  - mockup_004.jpg
+  - mockup_003.jpg
+---
+<p>To view the original page, click <a href = "http://www.trueachievements.com/" target = "_blank">here</a>.</p>
+<p>This redesign started out just as a way to add some design mockups onto my own website, and see what I could come up with.</p>
+<p>Updated it to a more modern look and feel - in my opinion.</p>
+<p>Moved the main navigation and menus from top of page, to a sticky left aligned menu.</p>
+<p>Added in a few more design tweaks which I quite like.</p>
+<h2>Additional Images</h2>
+{% for ad in page.additional_images %}
+  {{ ad[0] }}
+{% else %}
+<p>There is no additional images for this mockup.</p>
+{% endfor %}
