@@ -12,7 +12,7 @@ layout: default
 		<h2>Additional Images</h2>
 		{% for ad_hash in page.additional_images %}
 		  {% for ad in ad_hash %}
-			<a href="{{ ad[1] }}">{{ ad[0] }}</a>
+			<a href="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}"><img src = "{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}" /></a>
 		  {% endfor %}
 		{% endfor %}		
 	</div>
