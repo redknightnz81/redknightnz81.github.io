@@ -36,7 +36,7 @@ footer { background: #CC0E0E; color: white; margin: 30px 0 0; padding: 20px 0 30
 footer a { text-decoration: underline; color: white; }
 footer a:hover { color: black; }
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 	.navbar-collapse { background: black; color: white;} 
 	.navbar-collapse ul { margin: 0 0 10px; }
 	.navbar-collapse ul li { border-bottom: 1px solid #CC0E0E; margin: 0 0 10px 0; }
