@@ -14,9 +14,3 @@ additional_images:
 <p>Updated it to a more modern look and feel - in my opinion.</p>
 <p>Moved the main navigation and menus from top of page, to a sticky left aligned menu.</p>
 <p>Added in a few more design tweaks which I quite like.</p>
-<h2>Additional Images</h2>
-{% for ad_hash in page.additional_images %}
-  {% for ad in ad_hash %}
-    <a href="{{ ad[1] }}">{{ ad[0] }}</a>
-  {% endfor %}
-{% endfor %}
