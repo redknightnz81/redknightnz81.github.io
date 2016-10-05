@@ -15,8 +15,8 @@ additional_images:
 <p>Moved the main navigation and menus from top of page, to a sticky left aligned menu.</p>
 <p>Added in a few more design tweaks which I quite like.</p>
 <h2>Additional Images</h2>
-{% for ad in page.additional_images %}
-  <a href = "#" target = "_blank">a {{ ad[0] }}</a>
-{% else %}
-<p>There is no additional images for this mockup.</p>
+{% for ad_hash in page.additional_images %}
+  {% for ad in ad_hash %}
+    <a href="#">{{ link[0] }}</a>
+  {% endfor %}
 {% endfor %}
