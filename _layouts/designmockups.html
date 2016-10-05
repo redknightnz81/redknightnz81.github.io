@@ -9,11 +9,28 @@ layout: default
 	</div>
 	<div class = "col-md-8">		
 		{{ content }}
+		{% assign end_column = false %}
 		<h2>Additional Images</h2>
-		{% for ad_hash in page.additional_images %}
-		  {% for ad in ad_hash %}
-			<a href="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}"><img src = "{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}" /></a>
-		  {% endfor %}
-		{% endfor %}		
+		<div class = "row">		
+{% for ad_hash in page.additional_images %}
+  {% for ad in ad_hash %}
+    {% if end_column == true %}
+		</div>
+		<div class = "row">				
+    {% endif %}  
+			<div class="col-md-6">
+				<div class="image-concept-container">
+					<a href="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}"><img src="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}" alt=""></a>
+				</div>
+			</div>
+    {% if end_column == true %}			
+      {% assign end_column = false %}
+	{% elsif %}
+	  {% assign end_column = true %}
+	{% endif %}
+  {% endfor %}
+{% endfor %}					
+		</div>
+
 	</div>
 </div>
