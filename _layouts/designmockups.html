@@ -11,8 +11,9 @@ layout: default
 		{{ content }}
 		<h2>Additional Images</h2>
 		<div class = "row">		
+{% assign end_column = false %}		
+{% assign first_loop = true %}		
 {% for ad_hash in page.additional_images %}
-  {% assign end_column = false %}
   {% for ad in ad_hash %}
     {% if end_column == true %}
 		</div>
@@ -25,6 +26,9 @@ layout: default
 			</div>
     {% if end_column == true %}			
       {% assign end_column = false %}
+	{% elsif end_column == false and first_loop == true %}
+	  {% assign first_loop = false %}
+	  {% assign end_column = false %}	
 	{% elsif end_column == false %}		
 	  {% assign end_column = true %}
 	{% endif %}
