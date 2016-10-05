@@ -9,7 +9,7 @@ collections:
     permalink: /designs/:title
 navigation:
   - title: HOME
-    url: /
+    url: http://www.redknightnz81.com/
 	new_window: false
   - title: BLOG
     url: /blog/
