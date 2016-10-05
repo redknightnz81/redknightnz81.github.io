@@ -1,3 +1,7 @@
 name: Bradley Campbell, Web Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+collections:
+  designmockups:
+    output: true
+	permalink: /designs/:title/
