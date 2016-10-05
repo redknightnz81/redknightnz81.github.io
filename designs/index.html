@@ -2,9 +2,41 @@
 layout: default
 title: Designs
 ---
-			<h1>{{ page.title }}</h1>
-			<ul class="posts">
-{% for designmockup in site.designmockups %}	
-				<li><a href="{{ designmockup.url }}" title="{{ designmockup.title }}">{{ designmockup.title }}</a></span></li>
-{% endfor %}
-			</ul>
+<div class="row">
+	<div class = "col-md-4">
+		<h1>{{ page.title }}</h1>
+	</div>
+	<div class = "col-md-8">
+		<p>Below are some website design concepts and mockups that I have created.</p>
+		<p>Click any of the images below to be taken to a more detailed overview.</p>
+		<p><strong>Content coming soon.</strong></p>
+		<div class="row" style = "display: none;">
+			<div class = "col-md-6">
+				<div class = "image-concept-container">
+					<a href = "design-trueachievements-mockup.php"><img src = "../images/designs/thumbnails/mockup_001.jpg" alt = "" /></a>
+					<p><a href = "design-trueachievements-mockup.php">Stetson Group mobile website redesign mockup.</a></p>
+				</div>
+			</div>
+			<div class = "col-md-6">
+				<div class = "image-concept-container">
+					<a href = "design-trueachievements-mockup.php"><img src = "../images/designs/thumbnails/mockup_002.jpg" alt = "" />
+					<p><a href = "design-trueachievements-mockup.php">Personal website design mockup.</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row" style = "display: none;">
+			<div class = "col-md-6">
+				<div class = "image-concept-container">
+					<a href = "design-trueachievements-mockup.php"><img src = "../images/designs/thumbnails/mockup_003.jpg" alt = "" /></a>
+					<p><a href = "design-trueachievements-mockup.php">TrueAchievements redesign mockup.</a></p>
+				</div>
+			</div>
+			<div class = "col-md-6">
+				<div class = "image-concept-container">
+					<img src = "../images/designs/thumbnails/mockup_004.jpg" alt = "" /></a>
+					<p><a href = "design-trueachievements-mockup.php">Volunteer Kapiti website redesign mockup.</a></p>
+				</div>
+			</div>
+		</div>					
+	</div>
+</div>
