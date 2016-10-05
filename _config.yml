@@ -1,5 +1,7 @@
 name: Bradley Campbell, Web Developer
 markdown: kramdown
+url: http://www.redknightnz81.com
+baseurl: /
 permalink: /blog/:year/:month/:day/:title
 collections:
   designmockups:
