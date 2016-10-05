@@ -25,7 +25,8 @@ layout: default
 			</div>
     {% if end_column == true %}			
       {% assign end_column = false %}
-	{% elsif %}
+	{% endif %}
+	{% if end_column == false %}		
 	  {% assign end_column = true %}
 	{% endif %}
   {% endfor %}
