@@ -7,3 +7,16 @@ collections:
   designmockups:
     output: true
     permalink: /designs/:title
+navigation:
+  - title: HOME
+    url: /
+	new_window: false
+  - title: BLOG
+    url: /blog/
+	new_window: false
+  - title: DESIGNS
+    url: /designs/
+	new_window: false
+  - title: TWITTER
+    url: http://www.twitter.com/redknightnz81
+	new_window: true
