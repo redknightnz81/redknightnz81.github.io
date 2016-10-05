@@ -4,10 +4,10 @@ title: "TrueAchievements redesign mockup."
 date: 2016-10-05
 thumbmail_image: mockup_003.jpg
 additional_images:
-  - mockup_001.jpg
-  - mockup_002.jpg
-  - mockup_004.jpg
-  - mockup_003.jpg
+  - image: mockup_001.jpg
+  - image: mockup_002.jpg
+  - image: mockup_004.jpg
+  - image: mockup_003.jpg
 ---
 <p>To view the original page, click <a href = "http://www.trueachievements.com/" target = "_blank">here</a>.</p>
 <p>This redesign started out just as a way to add some design mockups onto my own website, and see what I could come up with.</p>
@@ -17,6 +17,6 @@ additional_images:
 <h2>Additional Images</h2>
 {% for ad_hash in page.additional_images %}
   {% for ad in ad_hash %}
-    <a href="#">{{ link[0] }}</a>
+    <a href="{{ link[1] }}">{{ link[0] }}</a>
   {% endfor %}
 {% endfor %}
