@@ -5,8 +5,10 @@
 				<p>Powered by Jekyll, github pages and Bootstrap.</p>
 				<p>
 {% for item in site.navigation %}
-  {% assign class = 'menu-item-standard %}
+  {% assign class = 'menu-item-standard' %}
   {% if page.url contains item.url %}
+    {% assign class = 'menu-item-current-page' %}
+  {% elsif page.active_page = 'home' %}
     {% assign class = 'menu-item-current-page' %}
   {% endif %}
 					<a href="{{ item.url }}" class="{{ class }}"{% if item.new_window == true %} target = "_blank"{% endif %}>{{ item.title }}</a>{% if item.new_window == false %}&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
