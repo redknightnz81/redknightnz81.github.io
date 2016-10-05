@@ -1,0 +1,66 @@
+/* Stylesheet for redknightnz81.com */
+/* red colour: #CC0E0E; */
+
+body { font-family: Arial, sans-serif; }
+h1, h2, nav, footer { font-family: 'Didact Gothic', Arial, sans-serif; }
+
+nav { background: url('../images/background/nav-bg-slice.jpg') repeat-x top left !important; }
+.navbar { border: 0; min-height: 40px; margin-bottom: 0; }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav li a { color: white; }
+.navbar-inverse .navbar-nav li a:hover { color: black; }
+
+.navbar-brand, .navbar-nav li a { height: 35px; padding: 10px; }
+
+.navbar-toggle { padding: 3px 10px; margin-top: 8px; margin-right: 5px;  border: 0; }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { background-color: #CC0E0E; }
+.navbar-toggle:hover .icon-bar { background-color: black; }
+.navbar-toggle .icon-bar { height: 3px; }
+
+.container .row a { color: #CC0E0E; text-decoration: underline; }
+
+.col-md-8 .col-md-6 ul, ul.post-tags { padding-left: 10px; list-style-type: none; }
+.col-md-8 .col-md-6 ul > li, ul.post-tags > li { text-indent: -5px; }
+.col-md-8 .col-md-6 ul > li:before, ul.post-tags > li:before { content: "- "; text-indent: -5px; }
+.col-md-8 .col-md-6 ul ul { margin-bottom: 12px; }
+
+.col-md-8 ul.posts { list-style-type: none; padding: 0; margin: 0; }
+.col-md-8 ul.posts li { margin-bottom: 12px; }
+.col-md-8 ul.posts li span { font-size: 12px; }
+
+.image-concept-container { margin: 20px auto; width: 280px; background: #837474; border: 1px solid #837474; margin-bottom: 20px; }
+.image-concept-container:hover { background: #CC0E0E; }
+.image-concept-container p { margin: 6px; color: white; }
+.container .row .image-concept-container a { text-decoration: none; color: white; }
+
+footer { background: #CC0E0E; color: white; margin: 30px 0 0; padding: 20px 0 30px; }
+footer a { text-decoration: underline; color: white; }
+footer a:hover { color: black; }
+
+@media (max-width: 768px) { 
+	.navbar-collapse { background: black; color: white;} 
+	.navbar-collapse ul { margin: 0 0 10px; }
+	.navbar-collapse ul li { border-bottom: 1px solid #CC0E0E; margin: 0 0 10px 0; }
+	.navbar-collapse ul li a { line-height: 30px; padding: 5px 0; }
+	.navbar-inverse .navbar-nav>li>a:hover { color: #CC0E0E; }
+	.navbar-brand { padding-left: 17px; }
+	.navbar-brand span { display: none; }
+	h1 { font-weight: bold; font-size: 28px; color: #CC0E0E; }
+	h2 { font-size: 22px; color: #CC0E0E; }
+	h3 { font-size: 16px; color: #CC0E0E; }
+	.col-md-8 .col-md-6 { padding: 0; }
+	footer { text-align: center; }
+}
+
+@media (min-width: 768px) { 
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: -10px; }
+	.navbar-nav { float: right; } 
+	.navbar-nav li { margin: 0 10px; }
+	.navbar-nav li a { padding: 10px 0; }
+	.navbar-inverse .navbar-nav li.current-page { border-bottom: 3px solid white; }
+	.navbar-inverse .navbar-nav li:hover { border-bottom: 3px solid black; }	
+	h1 { font-size: 60px; color: #CC0E0E; font-weight: bold; }
+	h2 { font-size: 22px; color: #CC0E0E; }
+	h3 { font-size: 18px; color: #CC0E0E; }	
+	.col-md-8 { padding-top: 26px; }
+	.col-md-8 .col-md-6 { padding: 0 20px 0 0; }
+}
