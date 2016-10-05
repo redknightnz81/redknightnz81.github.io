@@ -2,9 +2,18 @@
 layout: default
 title: Bradley Campbell's Blog
 ---
-			<h1>{{ page.title }}</h1>
-			<ul class="posts">
+<div class="row">
+	<div class = "col-md-4">
+		<h1>Blog.</h1>
+	</div>
+	<div class = "col-md-8">
+		<p>Below are blog posts that relate to my gaming habits on both the Xbox and Steam platforms.</p>
+		<p>I now play online only on Steam.</p>
+		<p>For tracking of my Steam achievement stats, I use the website <a href = "http://www.truesteamachievements.com" target = "_blank">TrueSteamAchievements.com</a>.  You can view my profile on their website <a href = "#">here</a>.</p>
+		<ul class="posts">
 {% for post in site.posts %}	
-				<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>. Posted on <span>{{ post.date | date: "%Y-%m-%d" }}</span></li>
+			<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>. Posted on <span>{{ post.date | date: "%Y-%m-%d" }}</span></li>
 {% endfor %}
-			</ul>
+		</ul>
+	</div>
+</div>
