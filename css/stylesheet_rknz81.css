@@ -56,7 +56,7 @@ footer a:hover { color: black; }
 	.navbar-nav { float: right; } 
 	.navbar-nav li { margin: 0 10px; }
 	.navbar-nav li a { padding: 10px 0; }
-	.navbar-inverse .navbar-nav li.current-page { border-bottom: 3px solid white; }
+	.navbar-inverse .navbar-nav li.menu-item-current-page { border-bottom: 3px solid white; }
 	.navbar-inverse .navbar-nav li:hover { border-bottom: 3px solid black; }	
 	h1 { font-size: 60px; color: #CC0E0E; font-weight: bold; }
 	h2 { font-size: 22px; color: #CC0E0E; }
