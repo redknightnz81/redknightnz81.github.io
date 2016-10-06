@@ -12,18 +12,15 @@
 				</div>
 				<div class="collapse navbar-collapse" id="rknz81_navbar">
 					<ul class="nav navbar-nav">
-						<li class = "current-page">
-							<a href="{{ site.baseurl }}">HOME</a>
-						</li>
-						<li>
-							<a href="{{ site.baseurl }}blog/">BLOG</a>
-						</li>
-						<li>
-							<a href="{{ site.baseurl }}designs/">DESIGNS</a>
-						</li>
-						<li>
-							<a href="http://www.twitter.com/redknightnz81" target = "_blank">TWITTER</a>
-						</li>
+{% for item in site.navigation %}
+  {% assign class = 'menu-item-standard' %}
+  {% if page.url contains item.url %}
+    {% assign class = 'menu-item-current-page' %}
+  {% elsif page.page_active == 'home' and item.url == 'http://www.redknightnz81.com/' %}
+    {% assign class = 'menu-item-current-page' %}
+  {% endif %}
+						<li class="{{ class }}"><a href="{{ item.url }}" {% if item.new_window == true %} target = "_blank"{% endif %}>{{ item.title }}</a></li>
+{% endfor %}						
 					</ul>
 				</div>
 			</div>
