@@ -13,15 +13,15 @@ layout: default
 		<div class = "row">		
 {% assign end_column = false %}		
 {% assign first_loop = true %}		
-{% for ad_hash in page.additional_images %}
-  {% for ad in ad_hash %}
-    {% if end_column == true %}
+{% for dm_image in page.additional_images %}
+  {% if end_column == true %}
 		</div>
 		<div class = "row">				
-    {% endif %}  
+  {% endif %}  
 			<div class="col-md-6">
 				<div class="image-concept-container">
-					<a href="{{ site.baseurl }}images/designs/full_size/{{ ad[1] }}" data-lity><img src="{{ site.baseurl }}images/designs/thumbnails/{{ page.thumbnail_image }}" alt=""></a>
+					<a href="{{ site.baseurl }}images/designs/full_size/{{ dm_image.img_location }}" data-lity><img src="{{ site.baseurl }}images/designs/thumbnails/{{ page.thumbnail_image }}" alt=""></a>
+					<p><a href="{{ site.baseurl }}images/designs/full_size/{{ dm_image.img_location }}">{{ dm_image.img_desc }}</a></p>
 				</div>
 			</div>
     {% if end_column == true %}			
@@ -30,9 +30,8 @@ layout: default
 	  {% assign first_loop = false %}
 	  {% assign end_column = false %}	
 	{% elsif end_column == false %}		
-	  {% assign end_column = true %}
-	{% endif %}
-  {% endfor %}
+    {% assign end_column = true %}
+  {% endif %}
 {% endfor %}					
 		</div>
 		<div id="inline" style="background:#fff" class="lity-hide">Inline content</div>		
