@@ -21,7 +21,7 @@ layout: default
     {% endif %}  
 			<div class="col-md-6">
 				<div class="image-concept-container">
-					<a href="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}"><img src="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}" alt=""></a>
+					<a href="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}" data-lity><img src="{{ site.baseurl }}images/designs/thumbnails/{{ ad[1] }}" alt=""></a>
 				</div>
 			</div>
     {% if end_column == true %}			
@@ -35,6 +35,7 @@ layout: default
   {% endfor %}
 {% endfor %}					
 		</div>
+		<div id="inline" style="background:#fff" class="lity-hide">Inline content</div>		
 
 	</div>
 </div>
