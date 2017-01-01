@@ -12,14 +12,7 @@ title: Bradley Campbell's Blog
 		<p>For tracking of my Steam achievement stats, I use the website <a href = "http://www.truesteamachievements.com" target = "_blank">TrueSteamAchievements.com</a>.  You can view my profile on their website <a href = "#">here</a>.</p>
 		<ul class="posts">
 {% for post in site.posts %}	
-{% assign day = post.date | date: "%-d"  %}
-{% case day %}
-  {% when '1' or '21' or '31' %}{{ day }}st
-  {% when '2' or '22' %}{{ day }}nd
-  {% when '3' or '23' %}{{ day }}rd
-  {% else %}{{ day }}th
-{% endcase %}
-			<li><a href="{{ post.url }}.html" title="{{ post.title }}">{{ post.title }}</a>. Posted on <span>{{ post.date | day: "of %B, %Y" }}</span></li>
+			<li><a href="{{ post.url }}.html" title="{{ post.title }}">{{ post.title }}</a>. Posted on <span>{{ post.date | date: "%Y-%m-%d" }}</span></li>
 {% endfor %}
 		</ul>
 	</div>

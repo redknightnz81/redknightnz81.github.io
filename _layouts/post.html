@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-{% assign day = page.date | date: "%-d"  %}
-{% case day %}
-  {% when '1' or '21' or '31' %}{{ day }}st
-  {% when '2' or '22' %}{{ day }}nd
-  {% when '3' or '23' %}{{ day }}rd
-  {% else %}{{ day }}th
-{% endcase %}
 <div class="row">
 	<div class = "col-md-4">
 		<h1>Blog.</h1>
@@ -16,7 +9,6 @@ layout: default
 	<div class = "col-md-8">		
 		{{ content }}
 		<h3>Additional Information</h3>
-		<p>Game completed on {{ page.date | date: '%B day, %Y' }}</p>
 		<p>Steam page: <a href = "{{ page.associated_game }}" target = "_blank">here</a></p>		
 	</div>
 </div>
