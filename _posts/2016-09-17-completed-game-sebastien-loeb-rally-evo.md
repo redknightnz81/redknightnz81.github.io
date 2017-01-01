@@ -2,6 +2,7 @@
 layout: post
 title: "Completed Game: Sebastien Loeb Rally EVO"
 date: 2016-09-17
+associated_game: http://store.steampowered.com/app/355060/
 ---
 
 Disappointing Rally game.

@@ -2,6 +2,7 @@
 layout: post
 title: "Completed Game: rFactor"
 date: 2016-08-29
+associated_game: http://store.steampowered.com/app/339790/
 ---
 
 Achievements are very easy to get in this. I just downloaded a suitable fast car (old IndyCar) and set it on the oval track for 500 laps at a time.

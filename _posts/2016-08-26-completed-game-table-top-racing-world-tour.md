@@ -2,6 +2,7 @@
 layout: post
 title: "Completed Game: Table Top Racing: World Tour"
 date: 2016-08-26
+associated_game: http://store.steampowered.com/app/450670/
 ---
 
 Another enjoyable little top down style racer (quite fond of this type of game).

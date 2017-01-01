@@ -2,6 +2,7 @@
 layout: post
 title: "Completed Game: Forza Motorsport 6: Apex (PC)"
 date: 2016-06-17
+associated_game: https://www.microsoft.com/en-nz/store/p/forza-motorsport-6-apex/9nblggh3shm7
 ---
 
 Completed this game well before the final achievement popped.

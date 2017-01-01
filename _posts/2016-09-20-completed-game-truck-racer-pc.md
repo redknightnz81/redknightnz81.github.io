@@ -6,6 +6,7 @@ tags:
   - completed game
   - gaming
   - steam
+associated_game: http://store.steampowered.com/app/256070/
 ---
 
 Already completed the X360 version.

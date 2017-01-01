@@ -6,6 +6,7 @@ tags:
   - completed game
   - gaming
   - steam
+associated_game: http://store.steampowered.com/app/321490/
 ---
 
 Basic, trimmed down version of the full game.
