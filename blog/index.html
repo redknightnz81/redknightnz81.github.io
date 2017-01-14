@@ -9,11 +9,27 @@ title: Bradley Campbell's Blog
 	<div class = "col-md-8">
 		<p>Below are blog posts that relate to my gaming habits on both the Xbox and Steam platforms.</p>
 		<p>I now play online only on Steam.</p>
-		<p>For tracking of my Steam achievement stats, I use the website <a href = "http://www.truesteamachievements.com" target = "_blank">TrueSteamAchievements.com</a>.  You can view my profile on their website <a href = "#">here</a>.</p>
+		<p>For tracking of my Steam achievement stats, I use the website <a href = "http://www.truesteamachievements.com" target = "_blank">TrueSteamAchievements.com</a>.  You can view my profile on their website <a href = "https://truesteamachievements.com/gamer/redknightnz81" target = "_blank">here</a>.</p>
+		<h2>Latest Posts</h2>
 		<ul class="posts">
-{% for post in site.posts %}	
-			<li><a href="{{ post.url }}.html" title="{{ post.title }}">{{ post.title }}</a>. Posted on <span>{{ post.date | date: "%Y.%m.%d" }}</span></li>
+{% for post in site.posts limit:5%}	
+			<li>
+				<h3>{{ post.title }}</h3>
+				<p>
+					<strong>Posted:</strong> {{ post.date | date: "%Y.%m.%d" }}.&nbsp;&nbsp;
+					<strong>Category:</strong> {% for category in post.category %}<a href="/blog/category/#{{ category | slugify }}">{{ category }}</a>&nbsp;{% endfor %}.&nbsp;
+					<strong>Tags:</strong> {% for tag in post.tags %}<a href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;{% endfor %}
+				</p>							
+				<p>{{ post.content }}</p>
+			</li>
 {% endfor %}
 		</ul>
+		<h2>Recent Posts</h2>		
+		<ul class="posts">
+{% for post in site.posts offset:5 limit:20 %}	
+			<li><a href="{{ post.url }}.html" title="{{ post.title }}">{{ post.title }}</a>. Posted on <span>{{ post.date | date: "%Y.%m.%d" }}</span></li>
+{% endfor %}
+		</ul>		
+		
 	</div>
 </div>
