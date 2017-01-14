@@ -2,6 +2,8 @@
 layout: post
 title: "Completed Game: Indianapolis 500 Evolution"
 date: 2014-11-27
+category: Gaming
+tags: [completion, NTSC, xbox360]
 ---
 
 Another completion that I am very proud of.

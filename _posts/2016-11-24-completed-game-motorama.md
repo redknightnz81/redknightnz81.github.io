@@ -2,10 +2,8 @@
 layout: post
 title: "Completed Game: Motorama"
 date: 2016-11-24
-tags:
-  - completed game
-  - gaming
-  - steam
+category: Gaming
+tags: [completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/327010/
 ---
 

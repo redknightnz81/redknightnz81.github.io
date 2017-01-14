@@ -2,6 +2,8 @@
 layout: post
 title: "Completed Game: MX vs. ATV: Untamed"
 date: 2015-02-15
+category: Gaming
+tags: [completion, xbox360]
 ---
 
 Very proud of this game completion.

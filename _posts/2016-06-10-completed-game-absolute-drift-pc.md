@@ -3,6 +3,8 @@ layout: post
 title: "Completed Game: Absolute Drift (PC)"
 date: 2016-06-10
 associated_game: http://store.steampowered.com/app/320140/
+category: Gaming
+tags: [completion, PC, Steam]
 ---
 
 Got this game cheaply in a humblebundle.

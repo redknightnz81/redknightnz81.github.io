@@ -10,6 +10,8 @@ layout: default
 	<div class = "col-md-8">		
 		{{ content }}
 		<h3>Additional Information</h3>
-		<p>Steam page: <a href = "{{ page.associated_game }}" target = "_blank">here</a></p>		
+		{% if page.associated_game %}		
+		<p>Store page: <a href = "{{ page.associated_game }}" target = "_blank">here</a></p>		
+		{% endif %}		
 	</div>
 </div>

@@ -2,6 +2,8 @@
 layout: post
 title: "New gaming PC"
 date: 2012-08-03
+category: Gaming
+tags: [gaming, PC, Steam]
 ---
 
 Finally have dumped the old P4 3GHz system.

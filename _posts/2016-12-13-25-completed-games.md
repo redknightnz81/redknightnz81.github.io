@@ -2,11 +2,7 @@
 layout: post
 title: "25 Steam games completed"
 date: 2016-12-13
-tags: 
-  - achievements
-  - milestone
-  - gaming
-  - steam
+category: Gaming
 ---
 
 Finally got this due to TrueSteamAchievements figuring out how to handle deleted achievements by developers.

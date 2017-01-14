@@ -2,10 +2,8 @@
 layout: post
 title: "Completed Game: Mantis Burn Racing (PC)"
 date: 2016-11-11
-tags:
-  - completed game
-  - gaming
-  - steam
+category: Gaming
+tags: [completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/446100/
 ---
 

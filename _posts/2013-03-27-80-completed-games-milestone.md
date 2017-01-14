@@ -2,6 +2,8 @@
 layout: post
 title: "80 Completed Games"
 date: 2013-03-27
+category: Gaming
+tags: [milestone, completed game, gaming, Steam]
 ---
 
 Milestone of 80 completed games on Xbox360, GfWL and Windows Phone.

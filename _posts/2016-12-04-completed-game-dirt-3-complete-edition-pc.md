@@ -2,10 +2,8 @@
 layout: post
 title: "Completed Game: DiRT 3 Complete Edition (PC)"
 date: 2016-12-04
-tags:
-  - completed game
-  - gaming
-  - steam
+category: Gaming
+tags: [completion, PC, Steam, redo]
 associated_game: http://store.steampowered.com/app/321040/
 ---
 

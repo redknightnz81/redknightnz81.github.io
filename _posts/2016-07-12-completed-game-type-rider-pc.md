@@ -3,6 +3,8 @@ layout: post
 title: "Completed Game: Type Rider (PC)"
 date: 2016-07-12
 associated_game: http://store.steampowered.com/app/258890/
+category: Gaming
+tags: [completion, PC, Steam]
 ---
 
 Finally got around to completing this level.

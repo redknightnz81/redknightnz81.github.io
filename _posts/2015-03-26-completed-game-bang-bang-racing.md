@@ -2,6 +2,8 @@
 layout: post
 title: "Completed Game: Bang Bang Racing"
 date: 2015-03-21
+category: Gaming
+tags: [completion, XBLA, xbox360]
 ---
 
 Hardest part of this game completion was definetely the "Beat the Clock" achievement which requires a time trial gold award on each track and all variants.
