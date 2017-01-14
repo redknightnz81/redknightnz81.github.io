@@ -3,7 +3,7 @@ layout: post
 title: "1000 Steam achievements won"
 date: 2016-09-21
 category: Gaming
-tags: [milestone, achievements, Steam, PC]
+tags: [Milestone, Achievements, Steam, PC]
 ---
 
 Another gaming milestone, this time for 1000 Steam achievements unlocked.
