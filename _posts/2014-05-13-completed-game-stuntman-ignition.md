@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Stuntman: Ignition"
 date: 2014-05-13
 category: Gaming
-tags: [completion, xbox360]
+tags: [Completion, Xbox360]
 ---
 
 Very proud of this completion.

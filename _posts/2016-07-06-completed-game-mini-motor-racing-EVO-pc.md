@@ -4,7 +4,7 @@ title: "Completed Game: Mini Motor Racing EVO (PC)"
 date: 2016-07-06
 associated_game: http://store.steampowered.com/app/209520/
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 ---
 
 Enjoyable little top down style racer.

@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Forza 4"
 date: 2012-03-14
 category: Gaming
-tags: [completion, achievements, gamerscore, gaming, xbox360]
+tags: [Completion, Achievements, Gamerscore, Gaming, Xbox360]
 ---
 
 That's right!

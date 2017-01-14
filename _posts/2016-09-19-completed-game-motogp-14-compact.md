@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: MotoGP 14 Compact"
 date: 2016-09-19
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/321490/
 ---
 

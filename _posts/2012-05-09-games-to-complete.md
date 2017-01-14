@@ -3,7 +3,7 @@ layout: post
 title: "Games I need to complete"
 date: 2012-05-09
 category: Gaming
-tags: [achievements, gamerscore, gaming, PC, GfWL, xbox360]
+tags: [Achievements, Gamerscore, Gaming, PC, GfWL, Xbox360]
 ---
 
 In alphabetical order, but not particularly in the order of playing:

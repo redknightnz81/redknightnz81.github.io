@@ -4,7 +4,7 @@ title: "Completed Game: Sebastien Loeb Rally EVO"
 date: 2016-09-17
 associated_game: http://store.steampowered.com/app/355060/
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 ---
 
 Disappointing Rally game.

@@ -3,7 +3,7 @@ layout: post
 title: "Long Weekend Gaming Schedule"
 date: 2012-02-01
 category: Gaming
-tags: [achievements, gamerscore, gaming, PC, GfWL, xbox360]
+tags: [Achievements, Gamerscore, Gaming, PC, GfWL, Xbox360]
 ---
 
 So I have been thinking about what I am planning to play / boost this long weekend - in New Zealand it is Waitangi Day on Monday.

@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Road Madness"
 date: 2016-09-22
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/457710/
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: MotoGP 10/11"
 date: 2012-06-03
 category: Gaming
-tags: [completion, xbox360]
+tags: [Completion, Xbox360]
 ---
 
 After a couple of marathon sessions I have managed to get the final achievement in MotoGP 10/11 and get the full 1000G.

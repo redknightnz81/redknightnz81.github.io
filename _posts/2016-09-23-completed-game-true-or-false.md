@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: True or False"
 date: 2016-09-23
 category: Gaming
-tags: [completion, gaming, Steam]
+tags: [Completion, Gaming, Steam]
 associated_game: http://store.steampowered.com/app/521340/
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: MotoGP 07"
 date: 2015-03-21
 category: Gaming
-tags: [completion, xbox360]
+tags: [Completion, Xbox360]
 ---
 
 Another completion that I am very proud of.

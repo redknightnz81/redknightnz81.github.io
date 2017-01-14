@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Monster Jam Battlegrounds"
 date: 2016-11-10
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/336250/
 ---
 

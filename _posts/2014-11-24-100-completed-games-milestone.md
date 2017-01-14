@@ -3,7 +3,7 @@ layout: post
 title: "100 Completed Games"
 date: 2014-11-24
 category: Gaming
-tags: [completion, gaming, Steam]
+tags: [Completion, Gaming, Steam]
 ---
 
 Recently reached the milestone of having completed 100 xbox 360 games - combined retail & arcade.

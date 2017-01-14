@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Harms Way"
 date: 2012-05-01
 category: Gaming
-tags: [completion, xbla, xbox360]
+tags: [Completion, XBLA, Xbox360]
 ---
 
 Very easy 200G (gamerscore) for this one.

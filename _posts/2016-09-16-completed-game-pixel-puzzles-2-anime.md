@@ -4,7 +4,7 @@ title: "Completed Game: Pixel Puzzles 2: Anime"
 date: 2016-09-16
 associated_game: http://store.steampowered.com/app/350810/
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 ---
 
 Quite enjoyable puzzle game with Steam Trading Cards (yay badges!).

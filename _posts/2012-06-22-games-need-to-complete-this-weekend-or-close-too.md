@@ -3,7 +3,7 @@ layout: post
 title: "Games need to complete this weekend (or close too!)"
 date: 2012-06-22
 category: Gaming
-tags: [achievements, gamerscore, gaming, xbox360]
+tags: [Achievements, Gamerscore, Gaming, Xbox360]
 ---
 
 SBK Generations (priority numero uno)

@@ -3,7 +3,7 @@ layout: post
 title: "Long weekend gamerscore fail!"
 date: 2012-02-07
 category: Gaming
-tags: [achievements, gamerscore, gaming]
+tags: [Achievements, Gamerscore, Gaming]
 ---
 
 After making a long post about all the gamerscore I was (hoping) going to get, I can't help but feel quite disappointed in myself after achieving a pitiful amount of gamerscore on the long weekend just been.

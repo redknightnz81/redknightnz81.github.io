@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Super Toy Cars (PC)"
 date: 2016-10-19
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/116100/
 ---
 

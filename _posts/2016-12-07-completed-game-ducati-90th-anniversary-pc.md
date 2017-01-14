@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: DUCATI - 90th Anniversary (PC)"
 date: 2016-12-07
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/456780/
 ---
 

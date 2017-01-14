@@ -3,7 +3,7 @@ layout: post
 title: "Completed Game: Grid 2 (PC)"
 date: 2016-09-19
 category: Gaming
-tags: [completion, PC, Steam]
+tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/44350/
 ---
 

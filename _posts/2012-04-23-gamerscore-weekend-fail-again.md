@@ -3,7 +3,7 @@ layout: post
 title: "Gamerscore Weekend FAIL! (again)"
 date: 2012-04-23
 category: Gaming
-tags: [achievements, gamerscore]
+tags: [Achievements, Gamerscore]
 ---
 
 Didn’t really get as much gamerscore as I had hoped this weekend.

@@ -3,7 +3,7 @@ layout: post
 title: "Another gamerscore weekend (hopefully!)"
 date: 2012-04-19
 category: Gaming
-tags: [achievements, gamerscore, gaming, PC, GfWL, xbox360]
+tags: [Achievements, Gamerscore, Gaming, PC, GfWL, Xbox360]
 ---
 
 Planning what to play this weekend, and decided I need to hold off on starting Ridge Racer Unbounded and make a bit more of an effort to complete some older games.

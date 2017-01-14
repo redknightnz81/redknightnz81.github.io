@@ -3,7 +3,7 @@ layout: post
 title: "Recent gaming purchases and rant."
 date: 2012-02-29
 category: Gaming
-tags: [gaming, rant]
+tags: [Gaming, Rant]
 ---
 
 Have purchased the following recently:
