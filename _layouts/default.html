@@ -21,15 +21,15 @@
 		<meta name="twitter:site" content="@redknightnz81">
 		<meta name="twitter:creator" content="@redknightnz81">
 {% if page.title %}
-		<meta name="twitter:title" content="{{ page.title }} || {{ site.title }}">
+		<meta name="twitter:title" content="{{ page.title }} || redknightnz81.com">
 {% else %}
-		<meta name="twitter:title" content="{{ site.title }}">
+		<meta name="twitter:title" content="redknightnz81.com">
 {% endif %}
 {% if page.url %}
 		<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
-{% if page.description %}
-		<meta name="twitter:description" content="{{ page.description }}">
+{% if page.tags %}
+		<meta name="twitter:description" content="{% for tag in page.tags %}#{{ tag | slugify }} {% endfor %}">
 {% else %}
 		<meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
