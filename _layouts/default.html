@@ -16,7 +16,24 @@
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->		
+		<![endif]-->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@redknightnz81">
+		<meta name="twitter:creator" content="@redknightnz81">
+{% if page.title %}
+		<meta name="twitter:title" content="{{ page.title }} || {{ site.title }}">
+{% else %}
+		<meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+		<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+		<meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+		<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+		<meta name="twitter:image:src" content="{{ site.url }}/images/content/twitter-avatar.jpg">
 	</head>
 	<body class = "page-layout-{{ page.layout }}">
 
