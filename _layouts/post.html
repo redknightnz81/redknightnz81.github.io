@@ -13,7 +13,7 @@ layout: default
 		{% if page.associated_game %}		
 		<p>Store page: <a href = "{{ page.associated_game }}" target = "_blank">here</a></p>		
 		{% endif %}	
-		<p style = "display: none;">Category: {% for category in page.category %}<a class="codinfox-category-mark" href="/blog/category/#{{ category | slugify }}">{{ category }}</a>&nbsp;{% endfor %}</p>
-		<p style = "display: none;">Tags: {% for tag in page.tags %}<a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;{% endfor %}</p>
+		<p>Category: {% for category in page.category %}<a class="codinfox-category-mark" href="/blog/category/#{{ category | slugify }}">{{ category }}</a>&nbsp;{% endfor %}</p>
+		<p>Tags: {% for tag in page.tags %}<a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;{% endfor %}</p>
 	</div>
 </div>
