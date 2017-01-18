@@ -14,13 +14,13 @@ Have purchased the following recently:
 – SBK 08 (NTSC) after first purchase lost in post from USA
 – Ben 10 Galactic Racing
 
-Unfortunately after almost 10 weeks of waiting for SBK 08 (NTSC) to arrive from USA, I gave up on it ever arriving.
-The seller on eBay was all good about it, and quickly issued a refund into my PayPal account.
-Have decided to get another copy from somewhere else though (as they aren’t the cheapest price wise currently).
+Unfortunately after almost 10 weeks of waiting for SBK 08 (NTSC) to arrive from USA, I gave up on it ever arriving.<br />
+The seller on eBay was all good about it, and quickly issued a refund into my PayPal account.<br />
+Have decided to get another copy from somewhere else though (as they aren’t the cheapest price wise currently).<br />
 
-With weekend coming up, it is time for thinking about some kind of schedule to get the most gamerscore or complete some games.
-I am finding it hardest to get the online Italian DLC done for Need For Speed: The Run, as well as the level 30 – currently half way through level 25.
-I will likely wait until their next race weekend, which doubles XP given.
-Possibly move onto some F1 2010, Indianapolis 500 Evolution or Stuntman: Ignition.
-F1 2010 or Stuntman is more likely as they are PAL games, and I really can’t stand the noise my NTSC console makes. It is one of the first revisions with an HDMI port, so it is a lot noisier than my Jasper PAL console.
+With weekend coming up, it is time for thinking about some kind of schedule to get the most gamerscore or complete some games.<br />
+I am finding it hardest to get the online Italian DLC done for Need For Speed: The Run, as well as the level 30 – currently half way through level 25.<br />
+I will likely wait until their next race weekend, which doubles XP given.<br />
+Possibly move onto some F1 2010, Indianapolis 500 Evolution or Stuntman: Ignition.<br />
+F1 2010 or Stuntman is more likely as they are PAL games, and I really can’t stand the noise my NTSC console makes. It is one of the first revisions with an HDMI port, so it is a lot noisier than my Jasper PAL console.<br />
 May have to think about upgrading it to a Jasper or a new S model.

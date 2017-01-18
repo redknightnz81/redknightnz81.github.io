@@ -8,4 +8,5 @@ associated_game: http://store.steampowered.com/app/327010/
 ---
 
 Terrible racing game - one of the worst I have ever played.
+
 Luckily there is no online and single player is short.
