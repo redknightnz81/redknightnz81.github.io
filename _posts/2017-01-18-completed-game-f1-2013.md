@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed Game: F1 2013 (PC)"
-date: 2017-18-01
+date: 2017-01-18
 category: Gaming
 tags: [Completion, PC, Steam]
 associated_game: http://store.steampowered.com/app/223670/
