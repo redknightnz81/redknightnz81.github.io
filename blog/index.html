@@ -32,11 +32,11 @@ title: Bradley Campbell's Blog
 {% endif %}
 {% endfor %}				
 {% for ct in cats %}
-					<a href="/blog/categories/#{{ ct | slugify }}" class="codinfox-category-mark">{{ ct }}</a><br />
+					<a href="/blog/category/#{{ ct | slugify }}" class="codinfox-category-mark">{{ ct }}</a><br />
 {% endfor %}				
 				</p>
 			</div>
-			<div class = "hidden-lg hidden-md"><p><a href = "/blog/categories/">View Categories</a></p></div>						
+			<div class = "hidden-lg hidden-md"><p><a href = "/blog/category/">View Categories</a></p></div>						
 			<h2>Tags</h2>
 			<div class = "hidden-xs hidden-sm">
 {% assign rawtags = "" %}
@@ -63,12 +63,12 @@ title: Bradley Campbell's Blog
 {% endfor %}				
 				<p>
 {% for tag in tags %}
-					<a href="/blog/tags/#{{ tag | slugify }}" class="codinfox-tag-mark">{{ tag }}</a><br />
+					<a href="/blog/tag/#{{ tag | slugify }}" class="codinfox-tag-mark">{{ tag }}</a><br />
 {% endfor %}					
 				</p>
 			</div>
 			
-			<div class = "hidden-lg hidden-md"><p><a href = "/blog/tags/">View Tags</a></p></div>						
+			<div class = "hidden-lg hidden-md"><p><a href = "/blog/tag/">View Tags</a></p></div>						
 			<h2>Archive</h2>
 			<div class = "hidden-xs hidden-sm">
 				<p>
@@ -76,7 +76,7 @@ title: Bradley Campbell's Blog
 	{% assign thisyear = post.date | date: "%B %Y" %}
 	{% assign prevyear = post.previous.date | date: "%B %Y" %}
 	{% if thisyear != prevyear %}
-					<a href = "/blog/archives/#{{ post.date | date:"%Y-%m" }}-ref">{{ thisyear }}</a><br />
+					<a href = "/blog/archives/#{{ post.date | date:"%Y-%B" }}-ref">{{ thisyear }}</a><br />
 	{% endif %}
 {% endfor %}						
 				</p>
