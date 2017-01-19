@@ -5,6 +5,84 @@ title: Bradley Campbell's Blog
 <div class="row">
 	<div class = "col-md-4">
 		<h1>Blog.</h1>
+		<div class = "blog-left-sidebar" style = "display: none !important;">
+			<h2>Categories</h2>
+			<div class = "hidden-xs hidden-sm">
+				<p>
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% assign cats = "" %}
+
+{% for cat in rawcats %}
+{% if cat != "" %}
+
+{% if cats == "" %}
+{% assign cats = cat | split:'|' %}
+{% endif %}
+
+{% unless cats contains cat %}
+{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}				
+{% for ct in cats %}
+					<a href="/blog/categories/#{{ ct | slugify }}" class="codinfox-category-mark">{{ ct }}</a><br />
+{% endfor %}				
+				</p>
+			</div>
+			<div class = "hidden-lg hidden-md"><p><a href = "/blog/categories/">View Categories</a></p></div>						
+			<h2>Tags</h2>
+			<div class = "hidden-xs hidden-sm">
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}				
+				<p>
+{% for tag in tags %}
+					<a href="/blog/tags/#{{ tag | slugify }}" class="codinfox-tag-mark">{{ tag }}</a><br />
+{% endfor %}					
+				</p>
+			</div>
+			
+			<div class = "hidden-lg hidden-md"><p><a href = "/blog/tags/">View Tags</a></p></div>						
+			<h2>Archive</h2>
+			<div class = "hidden-xs hidden-sm">
+				<p>
+{% for post in site.posts %}
+	{% assign thisyear = post.date | date: "%B %Y" %}
+	{% assign prevyear = post.previous.date | date: "%B %Y" %}
+	{% if thisyear != prevyear %}
+					<a href = "/blog/archives/#{{ post.date | date:"%Y-%m" }}-ref">{{ thisyear }}</a><br />
+	{% endif %}
+{% endfor %}						
+				</p>
+			</div>
+			<div class = "hidden-lg hidden-md"><p><a href = "/blog/archives/">View Archives</a></p></div>
+		</div>		
 	</div>
 	<div class = "col-md-8">
 		<p>Below are blog posts that relate to my gaming habits on both the Xbox and Steam platforms.</p>

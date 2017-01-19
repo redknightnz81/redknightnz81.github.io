@@ -12,6 +12,14 @@ title:    Archives
 	<div class = "col-md-8">
 		<div class="posts">
 		
+{% for post in site.posts %}
+	{% assign thisyear = post.date | date: "%B %Y" %}
+	{% assign prevyear = post.previous.date | date: "%B %Y" %}
+	{% if thisyear != prevyear %}
+			<a href = "/blog/archives/#{{ post.date | date:"%Y-%m" }}-ref">{{ thisyear }}</a>&nbsp;&nbsp;
+	{% endif %}
+{% endfor %}		
+		
 			<div id = "archive-section-2">
 			
 {% for post in site.posts  %}
@@ -43,20 +51,6 @@ title:    Archives
         {% endif %}
     {% endif %}
 {% endfor %}
-			</div>
-			
-			<div id = "archive-section-3" style = "display: none;">
-
-			<ul>
-{% for post in site.posts %}
-	{% assign thisyear = post.date | date: "%B %Y" %}
-	{% assign prevyear = post.previous.date | date: "%B %Y" %}
-	{% if thisyear != prevyear %}
-				<li><a href = "/blog/archives/#{{ post.date | date:"%Y-%m" }}-ref">{{ thisyear }}</a></li>
-	{% endif %}
-{% endfor %}
-			</ul>
-			
 			</div>
 			
 		</div>
