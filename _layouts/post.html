@@ -15,5 +15,10 @@ layout: default
 		{% endif %}	
 		<p>Category: {% for category in page.category %}<a class="codinfox-category-mark" href="/blog/category/#{{ category | slugify }}">{{ category }}</a>&nbsp;{% endfor %}</p>
 		<p>Tags: {% for tag in page.tags %}<a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;{% endfor %}</p>
+		
+		<hr />
+		
+		{% include disqus.html %}
+		
 	</div>
 </div>
