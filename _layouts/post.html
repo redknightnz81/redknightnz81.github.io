@@ -17,8 +17,8 @@ layout: default
 		<p>Tags: {% for tag in page.tags %}<a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;{% endfor %}</p>
 		
 		<hr />
-		
+		{% if page.comments %}
 		{% include disqus.html %}
-		
+		{% endif %}
 	</div>
 </div>
