@@ -17,7 +17,7 @@ layout: default
 		<p>Tags: {% for tag in page.tags %}<a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>&nbsp;{% endfor %}</p>
 		<hr />
 		<h3>Related Posts</h3>
-		{% assign RELATED_POSTS_THRESHOLD = 3 %}
+		{% assign RELATED_POSTS_THRESHOLD = 4 %}
 		<div class = "row">
 			  {% assign related_post_count = 0 %}
 			  {% for post in site.related_posts %}
