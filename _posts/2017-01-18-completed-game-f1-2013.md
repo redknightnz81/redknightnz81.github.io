@@ -11,4 +11,4 @@ Second time going through this game - as this is yet another racing game that I 
 
 Luckily arranged with some one to do the co-op online career achievements as that was the only real block to completing all achievements in this game.
 
-Game has since been removed from Steam - my guess is that licensing agreement expired, same reason with Grid2 as removed at same time.
+Game has since been removed from Steam - my guess is that licensing agreement expired, same reason with Grid as removed at same time.
