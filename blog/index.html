@@ -8,7 +8,7 @@ title: Bradley Campbell's Blog
 		<div class = "blog-left-sidebar">
 			<h2>Categories</h2>
 			<div class = "hidden-xs hidden-sm">
-				<p>
+				<p class = "cta-cloud-items">
 {% assign rawcats = "" %}
 {% for post in site.posts %}
 {% assign tcats = post.category | join:'|' | append:'|' %}
@@ -32,7 +32,7 @@ title: Bradley Campbell's Blog
 {% endif %}
 {% endfor %}				
 {% for ct in cats %}
-					<a href="/blog/category/#{{ ct | slugify }}" class="codinfox-category-mark">{{ ct }}</a><br />
+					 class = "cta-cloud-items<a href="/blog/category/#{{ ct | slugify }}" class="codinfox-category-mark">{{ ct }}</a>&nbsp;
 {% endfor %}				
 				</p>
 			</div>
@@ -61,9 +61,9 @@ title: Bradley Campbell's Blog
 {% endunless %}
 {% endif %}
 {% endfor %}				
-				<p>
+				<p class = "cta-cloud-items">
 {% for tag in tags %}
-					<a href="/blog/tag/#{{ tag | slugify }}" class="codinfox-tag-mark">{{ tag }}</a><br />
+					<a href="/blog/tag/#{{ tag | slugify }}" class="codinfox-tag-mark">{{ tag }}</a>&nbsp;
 {% endfor %}					
 				</p>
 			</div>
@@ -71,12 +71,12 @@ title: Bradley Campbell's Blog
 			<div class = "hidden-lg hidden-md"><p><a href = "/blog/tag/">View Tags</a></p></div>						
 			<h2>Archive</h2>
 			<div class = "hidden-xs hidden-sm">
-				<p>
+				<p class = "cta-cloud-items">
 {% for post in site.posts %}
 	{% assign thisyear = post.date | date: "%B %Y" %}
 	{% assign prevyear = post.previous.date | date: "%B %Y" %}
 	{% if thisyear != prevyear %}
-					<a href = "/blog/archives/#{{ post.date | date:"%Y-%B" }}-ref">{{ thisyear }}</a><br />
+					<a href = "/blog/archives/#{{ post.date | date:"%Y-%B" }}-ref">{{ thisyear }}</a>&nbsp;
 	{% endif %}
 {% endfor %}						
 				</p>
