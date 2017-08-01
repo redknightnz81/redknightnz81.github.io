@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Completed Game: Roadclub: That's Mahjong"
+title: "Completed Game: That's Mahjong"
 date: 2017-07-25
 category: Gaming
 tags: [Completion, PC, Steam]
