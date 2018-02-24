@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed Game: Pixel Traffic: Risky Bridge"
-date: 2017-02-23
+date: 2018-02-23
 associated_game: http://store.steampowered.com/app/699750/Pixel_Traffic_Risky_Bridge/
 category: Gaming
 tags: [Completion, PC, Steam]

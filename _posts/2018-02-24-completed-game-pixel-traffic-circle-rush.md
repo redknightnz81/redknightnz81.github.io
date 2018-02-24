@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed Game: Pixel Traffic: Circle Rush"
-date: 2017-02-24
+date: 2018-02-24
 associated_game: http://store.steampowered.com/app/699750/Pixel_Traffic_Risky_Bridge/
 category: Gaming
 tags: [Completion, PC, Steam]

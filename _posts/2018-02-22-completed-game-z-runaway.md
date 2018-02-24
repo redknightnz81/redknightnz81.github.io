@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed Game: Z Runaway"
-date: 2017-02-22
+date: 2018-02-22
 associated_game: http://store.steampowered.com/app/698330/Z_Runaway/
 category: Gaming
 tags: [Completion, PC, Steam]
