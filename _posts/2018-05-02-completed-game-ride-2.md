@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Completed Game: Ride 2"
-date: 2018-04-26
+date: 2018-05-02
 associated_game: https://store.steampowered.com/app/477770/Ride_2/
 category: Gaming
 tags: [Completion, PC, Steam]
