@@ -16,7 +16,7 @@
   {% assign class = 'menu-item-standard' %}
   {% if page.url contains item.url %}
     {% assign class = 'menu-item-current-page' %}
-  {% elsif page.page_active == 'home' and item.url == 'http://www.redknightnz81.com/' %}
+  {% elsif page.page_active == 'home' and item.url == 'https://redknightnz81.com/' %}
     {% assign class = 'menu-item-current-page' %}
   {% endif %}
 						<li class="{{ class }}"><a href="{{ item.url }}" {% if item.new_window == true %} target = "_blank"{% endif %}>{{ item.title }}</a></li>

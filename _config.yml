@@ -2,7 +2,7 @@ name: Bradley Campbell, Web Developer
 description: Website of Bradley Campbell.  Front end developer based in Wellington, New Zealand.
 title: Portfolio website of Bradley Campbell, front end web developer based in Wellington, New Zealand.
 markdown: kramdown
-url: http://www.redknightnz81.com
+url: https://redknightnz81.com
 baseurl: /
 permalink: /blog/:year/:month/:day/:title
 collections:
@@ -11,7 +11,7 @@ collections:
     permalink: /designs/:title
 navigation:
   - title: HOME
-    url: http://www.redknightnz81.com/
+    url: https://redknightnz81.com/
     new_window: false
   - title: BLOG
     url: /blog/
