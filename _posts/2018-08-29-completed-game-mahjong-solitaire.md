@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Completed Game: Gravel"
-date: 2018-06-26
-associated_game: https://store.steampowered.com/app/558260/Gravel/
+title: "Completed Game: Mahjong Solitaire"
+date: 2018-08-29
+associated_game: https://store.steampowered.com/app/805400/Mahjong_Solitaire/
 category: Gaming
 tags: [Completion, PC, Steam]
 ---
